@@ -16,7 +16,7 @@ if __name__ == "__main__":
                         help='Условие фильтрации')
 
     parser.add_argument('-agg', '--aggregate',
-                        help='Условие фильтрации')
+                        help='Условие аггригации')
 
     args = parser.parse_args()
 
