@@ -37,11 +37,26 @@ options:
 которая преобразует полученную строку в группу переменный для последующей работы.
 Функция поддерживает расчет среднего `avg`, минимального `min` и максимального `max` значения.
 
+## Тестирование:
+
+```
+Name                   Stmts   Miss  Cover
+------------------------------------------
+src\__init__.py            0      0   100%
+src\csv_aggregate.py      15      0   100%
+src\open_csv.py            8      0   100%
+src\strip_arg.py           4      0   100%
+src\tabulete.py           10      0   100%
+src\where_csv.py          28      4    86%
+------------------------------------------
+TOTAL                     65      4    94%
+
+```
+
+
 ## Контакты
 
 - **Александр Погорелов** — [eczempl@gmail.com](mailto:eczempl@gmail.com)  
 - **TG** — [@Eczempl](tg:@Eczempl) 
 - **GitHub профиль:** [https://github.com/AlPogorelov](https://github.com/AlPogorelov)  
 - **Репозиторий проекта:** [https://github.com/AlPogorelov/CSV_file_processing](https://github.com/AlPogorelov/CSV_file_processing)
--
----
